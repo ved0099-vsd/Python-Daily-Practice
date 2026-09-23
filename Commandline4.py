@@ -1,0 +1,11 @@
+#Run from Terminal-- python Commandline2.py 10 20 30 40.....
+
+import sys
+
+No1 = int(sys.argv[1])
+
+No2 = int(sys.argv[2])
+
+Ans = No1 + No2
+
+print("Addition is : ",Ans)
